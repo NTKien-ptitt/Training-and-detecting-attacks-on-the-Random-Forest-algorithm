@@ -70,13 +70,16 @@ Cấu trúc mã `processpcap.py` sẽ bao gồm:
 - Tệp `network_traffic_data.csv` sẽ chứa dữ liệu về các gói tin trong mạng, bao gồm các đặc trưng như IP nguồn, IP đích, cổng nguồn, cổng đích, kích thước gói và thời gian.
 ---
 ### 2.2 `train.py` và `train1.py`
-Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
-![image](https://github.com/user-attachments/assets/76967138-4b3c-4b89-b831-74ea32172e2f)
 
+
+![image](https://github.com/user-attachments/assets/76967138-4b3c-4b89-b831-74ea32172e2f)
+Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
 - Đọc dữ liệu từ `network_traffic_data.csv`.
 - Chia dữ liệu thành các đặc trưng (features) và nhãn (labels).
 - Huấn luyện mô hình học máy, ví dụ như Random Forest.
 -> Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
+
+-
 ![image](https://github.com/user-attachments/assets/2884ae86-44f1-4a77-be48-804e807573fc)
 
 
@@ -89,6 +92,8 @@ Kết quả sau khi huấn luyện sẽ là hai tệp:
 - `scaler.pkl`: Lưu scaler dùng để chuẩn hóa dữ liệu.
 
 Bạn có thể sử dụng hai tệp này trong quá trình giám sát tấn công mạng với `detect.py`.
+
+---
 ### 2.3 `detect.py`
 
 Cập nhật mô hình phát hiện tấn công bằng cách thêm hai tập huấn luyện vào:
