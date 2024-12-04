@@ -49,9 +49,9 @@
 ## 2. Hướng dẫn thực hiện
 ### 2.1 `processpcap.py`
 - Chuẩn bị dữ liệu từ các tệp `pcapng`, chúng ta sẽ tạo một mã Python để phân tích và trích xuất các đặc trưng từ hai tệp `normal.pcapng` và `attack.pcapng`.
-- normal.pcapng: chứa dữ liệu lưu lượng bình thường (đăng nhập, thêm, xóa, ...)
-- attack.pcapng: chứa dữ liệu lưu lượng tấn công (CVE, Brute force, ...)
-- Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
+- `normal.pcapng`: chứa dữ liệu lưu lượng bình thường (đăng nhập, thêm, xóa, ...)
+- `attack.pcapng`: chứa dữ liệu lưu lượng tấn công (CVE, Brute force, ...)
+  -> Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
 ![image](https://github.com/user-attachments/assets/32aa0706-e705-412d-957d-c78f71b88824)
 
 Cấu trúc mã `processpcap.py` sẽ bao gồm:
@@ -74,7 +74,7 @@ Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp 
 - Đọc dữ liệu từ `network_traffic_data.csv`.
 - Chia dữ liệu thành các đặc trưng (features) và nhãn (labels).
 - Huấn luyện mô hình học máy, ví dụ như Random Forest.
-- Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
+-> Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
 ![image](https://github.com/user-attachments/assets/2884ae86-44f1-4a77-be48-804e807573fc)
 
 
