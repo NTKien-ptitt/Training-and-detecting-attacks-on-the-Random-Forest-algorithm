@@ -52,6 +52,7 @@
 - `normal.pcapng`: chứa dữ liệu lưu lượng bình thường (đăng nhập, thêm, xóa, ...)
 - `attack.pcapng`: chứa dữ liệu lưu lượng tấn công (CVE, Brute force, ...)
   -> Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
+---
 ![image](https://github.com/user-attachments/assets/32aa0706-e705-412d-957d-c78f71b88824)
 
 Cấu trúc mã `processpcap.py` sẽ bao gồm:
