@@ -1,4 +1,5 @@
-
+# Huấn luyện mô hình học máy phát hiện tấn công dựa trên thuật toán Random Forest
+## 1. Cấu trúc
 1. **`detect.py`**:
    - **Chức năng**: Giám sát và phát hiện tấn công mạng trong thời gian thực. Sử dụng các mô hình học máy đã được huấn luyện để nhận dạng các mẫu tấn công trong lưu lượng mạng.
    - **Lệnh sử dụng**: 
@@ -32,4 +33,6 @@
 1. **Thu thập dữ liệu**: Sử dụng tệp `processpcap.py` để trích xuất các đặc trưng từ các tệp `.pcap`, tạo ra dataset cho mô hình học máy.
 2. **Huấn luyện mô hình**: Dùng `train.py` hoặc `train1.py` để huấn luyện mô hình học máy dựa trên dataset đã chuẩn bị từ bước trước.
 3. **Giám sát và phát hiện tấn công**: Chạy `detect.py` để giám sát lưu lượng mạng và sử dụng mô hình học máy đã huấn luyện để phát hiện các tấn công.
+
+## 2. Hướng dẫn thực hiện
 
