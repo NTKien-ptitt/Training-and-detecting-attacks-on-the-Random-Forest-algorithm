@@ -9,6 +9,8 @@
 
 ---
 ## 1. Cấu trúc
+![image](https://github.com/user-attachments/assets/8051f6b3-875e-4330-836d-eb681032f95a)
+
 1.1. **`detect.py`**:
    - **Chức năng**: Giám sát và phát hiện tấn công mạng trong thời gian thực. Sử dụng các mô hình học máy đã được huấn luyện để nhận dạng các mẫu tấn công trong lưu lượng mạng.
    - **Lệnh sử dụng**: 
