@@ -61,13 +61,14 @@ Cấu trúc mã `processpcap.py` sẽ bao gồm:
 - Phân tích các gói tin trong tệp và trích xuất các đặc trưng (như thời gian, kích thước gói, IP nguồn, IP đích, v.v.).
 - Tạo một dataset từ các đặc trưng đã trích xuất.
 - Lưu dataset vào tệp `network_traffic_data.csv`.
+- 
 ![image](https://github.com/user-attachments/assets/f557f7ba-d670-449c-997a-6889ae20d9ad)
 
 
 **Lưu ý:**
 - Bạn cần thay thế `path_to_your_files` bằng đường dẫn chính xác đến các tệp `normal.pcapng` và `attack.pcapng`.
 - Tệp `network_traffic_data.csv` sẽ chứa dữ liệu về các gói tin trong mạng, bao gồm các đặc trưng như IP nguồn, IP đích, cổng nguồn, cổng đích, kích thước gói và thời gian.
-
+---
 ### 2.2 `train.py` và `train1.py`
 Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
 ![image](https://github.com/user-attachments/assets/76967138-4b3c-4b89-b831-74ea32172e2f)
