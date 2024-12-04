@@ -51,7 +51,7 @@
 - Chuẩn bị dữ liệu từ các tệp `pcapng`, chúng ta sẽ tạo một mã Python để phân tích và trích xuất các đặc trưng từ hai tệp `normal.pcapng` và `attack.pcapng`.
 - `normal.pcapng`: chứa dữ liệu lưu lượng bình thường (đăng nhập, thêm, xóa, ...)
 - `attack.pcapng`: chứa dữ liệu lưu lượng tấn công (CVE, Brute force, ...)
--> Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
+- -> Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
 ---
 ![image](https://github.com/user-attachments/assets/32aa0706-e705-412d-957d-c78f71b88824)
 
