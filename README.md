@@ -37,6 +37,7 @@
 ## 2. Hướng dẫn thực hiện
 ### 2.1 `processpcap.py`
 Để chuẩn bị dữ liệu từ các tệp `pcapng`, chúng ta sẽ tạo một mã Python để phân tích và trích xuất các đặc trưng từ hai tệp `normal.pcapng` và `attack.pcapng`. Dữ liệu này sẽ được lưu vào một tệp CSV (`network_traffic_data.csv`) để sử dụng cho quá trình huấn luyện mô hình.
+![image](https://github.com/user-attachments/assets/32aa0706-e705-412d-957d-c78f71b88824)
 
 Cấu trúc mã `processpcap.py` sẽ bao gồm:
 
@@ -44,6 +45,7 @@ Cấu trúc mã `processpcap.py` sẽ bao gồm:
 - Phân tích các gói tin trong tệp và trích xuất các đặc trưng (như thời gian, kích thước gói, IP nguồn, IP đích, v.v.).
 - Tạo một dataset từ các đặc trưng đã trích xuất.
 - Lưu dataset vào tệp `network_traffic_data.csv`.
+![image](https://github.com/user-attachments/assets/f557f7ba-d670-449c-997a-6889ae20d9ad)
 
 
 **Lưu ý:**
@@ -52,11 +54,13 @@ Cấu trúc mã `processpcap.py` sẽ bao gồm:
 
 ### 2.2 `train.py` và `train1.py`
 Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
+![image](https://github.com/user-attachments/assets/76967138-4b3c-4b89-b831-74ea32172e2f)
 
 - Đọc dữ liệu từ `network_traffic_data.csv`.
 - Chia dữ liệu thành các đặc trưng (features) và nhãn (labels).
 - Huấn luyện mô hình học máy, ví dụ như Random Forest.
 - Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
+![image](https://github.com/user-attachments/assets/2884ae86-44f1-4a77-be48-804e807573fc)
 
 
 **Lưu ý:**
