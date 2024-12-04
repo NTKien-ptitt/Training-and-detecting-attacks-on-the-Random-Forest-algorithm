@@ -77,7 +77,7 @@ Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp 
 - Đọc dữ liệu từ `network_traffic_data.csv`.
 - Chia dữ liệu thành các đặc trưng (features) và nhãn (labels).
 - Huấn luyện mô hình học máy, ví dụ như Random Forest.
--> Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
+- -> Lưu mô hình đã huấn luyện và scaler vào các tệp `random_forest.pkl` và `scaler.pkl`.
 
 -
 ![image](https://github.com/user-attachments/assets/2884ae86-44f1-4a77-be48-804e807573fc)
