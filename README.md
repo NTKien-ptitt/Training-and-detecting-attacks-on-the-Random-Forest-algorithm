@@ -73,7 +73,7 @@ Cấu trúc mã `processpcap.py` sẽ bao gồm:
 
 
 ![image](https://github.com/user-attachments/assets/76967138-4b3c-4b89-b831-74ea32172e2f)
-Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
+- Sau khi đã có tệp `network_traffic_data.csv`, bạn sẽ sử dụng tệp này để huấn luyện mô hình học máy trong các tệp `train.py` và `train1.py`. Quá trình này bao gồm việc:
 - Đọc dữ liệu từ `network_traffic_data.csv`.
 - Chia dữ liệu thành các đặc trưng (features) và nhãn (labels).
 - Huấn luyện mô hình học máy, ví dụ như Random Forest.
