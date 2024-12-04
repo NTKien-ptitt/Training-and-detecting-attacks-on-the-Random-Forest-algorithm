@@ -1,12 +1,12 @@
 # Huấn luyện mô hình học máy phát hiện tấn công dựa trên thuật toán Random Forest
-# Huấn luyện mô hình học máy phát hiện tấn công dựa trên thuật toán Random Forest
+---
 
-## [1. Cấu trúc](#1-cấu-trúc)
+### [1. Cấu trúc](#1-cấu-trúc)
 
-## [2. Hướng dẫn thực hiện](#2-hướng-dẫn-thực-hiện)
-### [2.1 `processpcap.py`](#21-processpcappy)
-### [2.2 `train.py` và `train1.py`](#22-trainpy-và-train1py)
-### [2.3 `detect.py`](#23-detectpy)
+### [2. Hướng dẫn thực hiện](#2-hướng-dẫn-thực-hiện)
+- [2.1 `processpcap.py`](#21-processpcappy)
+- [2.2 `train.py` và `train1.py`](#22-trainpy-và-train1py)
+- [2.3 `detect.py`](#23-detectpy)
 
 ---
 ## 1. Cấu trúc
